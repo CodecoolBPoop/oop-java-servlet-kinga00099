@@ -1,9 +1,21 @@
 package com.codecool.servlet;
 
 public class Item {
-    private int id = 0;
+    private int id;
     private String name;
     private double price;
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
 
     Item(int id, String name, double price) {
         this.id = id;
